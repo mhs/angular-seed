@@ -1,0 +1,9 @@
+mk directory
+
+add css (template id)
+add controller (template module, app name, controller name)
+add template (template id, controller name)
+add route (template module, app name, state name, template URL, controller name and name)
+add spec (template module, app name, controller name)
+
+add module to app.coffee

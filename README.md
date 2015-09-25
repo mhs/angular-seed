@@ -23,13 +23,25 @@ A seed project for Angular
         bower install
         bundle install
 
-6. Run the full test suite:
+6. Create a new app:
+
+        gulp template/app
+
+7. Create a page for your new app
+
+        gulp template/page
+
+8. Run the full test suite:
 
         gulp test
 
-7. Run the development server and unit tests:
+9. Run the development server and unit tests:
 
         gulp
+
+10. Visit your new page:
+
+       http://localhost:3000/your-new-page
 
 
 ## Deployment

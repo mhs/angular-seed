@@ -12,7 +12,7 @@ gulp.task 'build/dev/templates', ->
       conservativeCollapse: true
     }))
     .pipe(templateCache({
-      module: 'angularSeed'
+      module: '<%= appName %>'
       root: '/'
     }))
     .pipe(gulp.dest('build/dev'))
@@ -25,7 +25,7 @@ gulp.task 'build/dist/templates.js', ->
     }))
     .pipe(naturalSort())
     .pipe(templateCache({
-      module: 'angularSeed'
+      module: '<%= appName %>'
       root: '/'
     }))
     .pipe(revall())
